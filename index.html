@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--======== MAIN HEADER ========-->
+    <header class="l-header">
+        <!--===== NAV ======-->
+        <nav class="nav bg-grid">
+            <div class="nav_toggle" id="nav-toggle">
+                <img src="icon-menu.svg">
+            </div>
+
+            <div>
+                <a href="#" class="nav_logo"><img src="nike-logo.svg" alt=""></a>
+            </div>
+
+            <!--======= nav list =========-->
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#" class="nav_link">MEN</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">WOMEN</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">KIDS</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">CUSTOMIZE</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">SALE</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_shop">
+                <img src="shopping-bag.svg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bg-grid">
+        <div class="home">
+            <div class="sneaker">
+                <div class="sneaker_figure"></div>
+                <div>
+                    <img src="NikeAirMaxMotion2.png" class="sneaker_img shows" color="#a29596" alt="">
+                    <img src="NikeAirMax Motion2black.png" class="sneaker_img" color="#111111" alt="">
+                </div>
+
+                <div class="sneaker_colors">
+                    <span class="sneaker_color sneaker_colors-one active" primary="#a29596" color="#a29596"></span>
+                    <span class="sneaker_color sneaker_olors-two" primary="#111111" color="#111111"></span>
+                </div>
+            </div>
+
+            <div class="info">
+                <!-- ===== DATA ===== -->
+                <div class="data">
+                    <span class="data__subtitle">Nike</span>
+                    <h1 class="data__title">Air Max Motion 2</h1>
+                    <p class="data__description">Combinan la malla transpirable sin costuras para <br> un estilo tradicional.</p>
+                </div>
+
+                <!-- ===== ACTIONS ===== -->
+                <div class="actions">
+                    <!-- ===== SIZE ===== -->
+                    <div class="size">
+                        <h3 class="size_title">Tallas</h3>
+                        <div class="size_content">
+                            <span class="size_tallas active">
+                                8.5
+                            </span>
+                            <span class="size_tallas">
+                                9
+                            </span>
+                            <span class="size_tallas">
+                                9.5
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <h3 class="cart_title">Cant.</h3>
+                        <div class="cart_content"> 
+                            <span>-</span>
+                            <span>1</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="price">
+                    <span class="price_title">$99.00</span>
+                    <a href="#" class="price_button">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
